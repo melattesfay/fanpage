@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    height: 100%;
     background-color:#00FFFF;
     
 }
@@ -22,17 +21,15 @@ a {
     display:flex;
     justify-content: center;
 }
-.nav{
-    display:flex;
-    justify-content:space-around;
-}
+
 .footer{
     display:flex;
     justify-content:space-between;
+     width:30px;
+    height:30px;
 }
 .gallerypage{
-    display:flex;
-    justify-content:space-between;
+
 }
 .aboutpage{
     display:flex;
@@ -42,15 +39,52 @@ a {
 .gallery{
     display:flex;
     justify-content:space-between;
-    width:30px;
-    height:40px;
 }
-.social{
-    margin:100%;
-}
-.header{
+
+.footer{
     display:flex;
     justify-content:center;
-    width:310px;
-    height:410px;
+    width:10px;
+    height:10px;
+}
+.thumbnail-image{
+     border-radius:50%;
+     padding:15px;
+    
+}
+.image{
+    border-radius:50%;
+    width:540px;
+}
+.age{
+    width:350px;
+    border: 4px dotted red;
+    margin:40px;
+}
+.header{
+    color:red;
+    font-size: :70px;
+}
+.about{
+    
+}
+h2{
+    color:pink;
+    
+    display:flex;
+    justify-content:center;
+    font-size:100px;
+}
+.nav-item{
+    display:inline;
+     margin-left: 14%;
+    font-size: 50px ;
+    
+}
+#save{
+    width:250px;
+    height:250px;
+    border: 15px solid black;
+    margin-left: 38%;
+    margin-top: 64px;
 }
