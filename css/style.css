@@ -56,14 +56,25 @@ a {
     width:540px;
 }
 .age{
-    width:350px;
+    
     border: 4px dotted red;
     margin: 40px;
+    width: 280px;
+    height:290px;
+
 }
 .header{
     color:red;
     font-size:70px;
 }
+.ima{
+    border: 10px dotted purple;
+    margin: 40px;
+    width:300px;
+    height:370px;
+}
+}
+
 .about{
     color:blue;
     
@@ -89,3 +100,18 @@ h2{
     margin-top: 64px;
 }
 
+.leftPane{
+    border-radius:90%;
+    border: 3px solid black;
+    text-align:center;
+    text:2px;
+    color:blue;
+    padding:10px;
+    margin:10px;
+    top:4px;
+}
+.social{
+    display:flex;
+    width:10px;
+    height:10px;
+}
