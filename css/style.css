@@ -27,12 +27,10 @@ a {
      width:30px;
     height:30px;
 }
-.gallerypage{
 
-}
-.aboutpage{
+.about{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     
 }
 .gallery{
@@ -73,15 +71,11 @@ a {
     width:300px;
     height:370px;
 }
-}
 
-.about{
-    color:blue;
-    
-}
+
+
 h2{
     color:pink;
-    
     display:flex;
     justify-content:center;
     font-size:100px;
@@ -101,17 +95,37 @@ h2{
 }
 
 .leftPane{
-    border-radius:90%;
+    border-radius:10%;
     border: 3px solid black;
     text-align:center;
-    text:2px;
+    text:1px;
     color:blue;
     padding:10px;
-    margin:10px;
+    margin-top:30px;
     top:4px;
+    
 }
-.social{
+.tour{
     display:flex;
-    width:10px;
-    height:10px;
+    border: 5px solid blue;
+    width:550px;
+    
+}
+.songs{ 
+    display: flex;
+    border: 5px solid blue;
+    
+}
+.flex{
+   display: flex;
+   height:250px;
+    
+   
+}
+.facebook{
+    display: flex;
+	justify-content:flex-start;
+    width:120px;
+    height:74px;
+    border: 5px solid blue; 
 }
